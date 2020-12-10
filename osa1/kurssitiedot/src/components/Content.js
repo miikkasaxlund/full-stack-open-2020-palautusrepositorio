@@ -8,7 +8,7 @@ const Content = props => {
   return (
     <div>
       {props.parts.map((item, i) => {
-        return <Part key={i} name={item.name} number={item.number} />
+        return <Part key={i} name={item.name} number={item.excercises} />
       })}
     </div>  
   )
